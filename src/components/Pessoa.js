@@ -1,7 +1,7 @@
-function Pessoa ({nome, idade, profissao, foto, cidade}) {
-    
+function Pessoa({ nome, idade, profissao, foto, cidade }) {
+
     return (
-        <div className="info_pessoa">
+        <div>
             <img src={foto} alt={nome} />
             <h2>Nome: {nome}</h2>
             <p>Idade: {idade}</p>
@@ -9,6 +9,7 @@ function Pessoa ({nome, idade, profissao, foto, cidade}) {
             <p>Cidade: {cidade}</p>
         </div>
     )
+
 }
 
 export default Pessoa

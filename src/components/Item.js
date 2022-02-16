@@ -10,12 +10,14 @@ function Item({marca, lancamento}) {
 
 Item.propTypes = {
     marca: PropTypes.string.isRequired,
-    lancamento: PropTypes.number,
+    lancamento: PropTypes.number.isRequired
 }   
 
-Item.defaultProps = {
+/*
+    Item.defaultProps = {
     marca: 'Faltou a marca',
     lancamento: 0,
-}
+    }   
+*/
 
 export default Item

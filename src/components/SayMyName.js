@@ -1,11 +1,8 @@
-import Pessoa from "./Pessoa"
-
 function SayMyName(props) {
 
     return(
         <div className="nome">
-            <p>{props.nome}</p>
-            <Pessoa />
+            <p>{props.nome} é sue professor de REACT</p>
         </div>
     )
 

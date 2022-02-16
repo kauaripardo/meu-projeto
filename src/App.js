@@ -4,6 +4,9 @@ import Form from './components/Form';
 import State from './components/State';
 import Condicional from './components/Condicional';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
+import SayMyName from './components/SayMyName';
+import Frase from './components/Frase';
 
 function App() {
 
@@ -13,7 +16,18 @@ function App() {
       <Eventos />
       <Form />
       <Condicional />
-      <Pessoa nome="Kauã" idade="18" profissao="Programador Front-End" foto="Undefined" cidade="Barra do Corda" />
+      <Pessoa 
+        nome="Kauã" 
+        idade="18" 
+        profissao="Programador Front-End" 
+        foto="Undefined" 
+        cidade="Barra do Corda" 
+      />
+      <SayMyName nome="Matheus"/>
+      <SayMyName nome="João"/>
+      <Frase />
+      <State />
+      <List />
     </div>
   )
 }

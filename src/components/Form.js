@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import '../App.css'
+import styles from './Cadastro.module.css'  
+
 
 function Form() {
 
@@ -11,7 +14,7 @@ function Form() {
     const [password, setPassword] = useState()
 
     return (
-        <div>
+        <div className={styles.cadastroContainer}>
             <h1>Meu cadastro</h1>
             <form onSubmit={cadastrarUsuario}>
                 <div>
