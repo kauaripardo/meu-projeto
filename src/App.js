@@ -3,6 +3,7 @@ import Eventos from './components/Eventos'
 import Form from './components/Form';
 import State from './components/State';
 import Condicional from './components/Condicional';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Eventos />
       <Form />
       <Condicional />
+      <Pessoa nome="Kauã" idade="18" profissao="Programador Front-End" foto="Undefined" cidade="Barra do Corda" />
     </div>
   )
 }
