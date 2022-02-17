@@ -18,24 +18,26 @@ function Form() {
             <h1>Meu cadastro</h1>
             <form onSubmit={cadastrarUsuario}>
                 <div>
-                    <label htmlFor="name">Nome:</label>
-                    <input
-                    type="text" 
-                    id="name" 
-                    name="name" 
-                    placeholder="Digite seu nome"
-                    onChange={(e) => setName(e.target.value)} //a cada letra digitada neste campo, modifica-se o valor State 
-                    />
+                    <label htmlFor="name">Nome:
+                        <input
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Digite seu nome"
+                        onChange={(e) => setName(e.target.value)} //a cada letra digitada neste campo, modifica-se o valor State 
+                        />
+                    </label>
                 </div>
                 <div>
-                    <label htmlFor="password">Senha:</label>
-                    <input 
-                    type="password" 
-                    id="password" 
-                    name="password" 
-                    placeholder="Digite sua senha"
-                    onChange={(e) => setPassword(e.target.value)} //set para atribuir o valor
-                    />
+                    <label htmlFor="password">Senha:
+                        <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Digite sua senha"
+                        onChange={(e) => setPassword(e.target.value)} //set para atribuir o valor
+                        />
+                    </label>
                 </div>
                 <div>
                     <input type="submit" value="Cadastrar" />
