@@ -7,7 +7,7 @@ function State() {
         console.log(`Nome do usuário: ${name}  |  Escola onde estudava: ${school}  |  E-mail do usuário: ${emailum}  |  E-mail do responsável: ${emaildois}  |  Contato: ${number}  |  Senha: ${password}`)
     }
 
-    const[name, setName] = useState()
+    const[name, setName] = useState('Kauã')
     const[school, setSchool] = useState()
     const[emailum, setEmailum] = useState()
     const[emaildois, setEmaildois] = useState()
@@ -25,6 +25,7 @@ function State() {
                     id='name' 
                     name='name' 
                     placeholder="Digite seu nome" 
+                    value={name}
                     onChange={(a) => setName(a.target.value)}
                     />
                 </div>

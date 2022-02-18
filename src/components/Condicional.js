@@ -19,7 +19,7 @@ function Condicional() {
                     type="email" 
                     placeholder="Digite o seu e-mail..."
                     onChange={(e) => setEmail(e.target.value)}
-                    />
+                />
                 <button type="submit" onClick={enviarEmail}>Enviar e-mail</button>
                 {userEmail && (
                     <div>

@@ -15,7 +15,6 @@ function App() {
       <h1>Redenrização Condicional</h1>
       <Eventos />
       <Form />
-      <Condicional />
       <Pessoa 
         nome="Kauã" 
         idade="18" 
@@ -28,6 +27,8 @@ function App() {
       <Frase />
       <State />
       <List />
+      <h1>RENDERIZAÇÃO CONDICIONAL</h1>
+        <Condicional />
     </div>
   )
 }
